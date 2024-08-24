@@ -1,0 +1,520 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.cover-image img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 550px;
+}
+
+.cover-text {
+    position: relative;
+    padding-bottom: 4px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Nova Mono', monospace;
+
+}
+
+.cover-text h1 {
+    font-size: 120px;
+    letter-spacing: 11px;
+    font-weight: 100;
+
+}
+
+.cover-text h3 {
+    font-size: 50px;
+    margin-top: 50px;
+    /* letter-spacing: 2px; */
+    font-weight: 100;
+
+}
+
+.cover-text div {
+    display: flex;
+    /* margin-left: 30px; */
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.cover-text div input {
+    width: 490px;
+    height: 70px;
+    padding-left: 70px;
+    font-size: 15px;
+    border-radius: 20px;
+    position: absolute;
+    border: none;
+    font-family: sans-serif;
+    color: #E26F3F;
+    font-weight: 600;
+}
+
+.cover-text>div>img {
+    position: relative;
+    z-index: 1;
+    height: 30px;
+    right: 210px;
+}
+
+.search-result {
+    position: absolute;
+    bottom: 0;
+    /* Aligns the result message at the bottom of the .cover-text container */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: red;
+    /* Style as needed */
+}
+
+.dishes {
+    /* border: 2px solid red; */
+    height: 350px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 221, 159);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dishes img {
+    width: 180px;
+    height: 202px;
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+.about {
+    /* border: 2px solid red; */
+    height: 800px;
+    display: flex;
+    background-color: #F6B100;
+}
+
+.details {
+    /* border: 2px solid blue; */
+    width: 50%;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.details div {
+    border: 1px solid black;
+    width: 422px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    align-content: center;
+    border: none;
+}
+.details h1{
+font-size: 30px;
+}
+.details div p {
+    width: 258px;
+    height: 90px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+.chef img {
+    height: 600px;
+    margin-top: 100px;
+}
+
+.d1 {
+    background-color: #E0BBB6;
+}
+
+.d2 {
+    background-color: #EBF9C4;
+}
+
+.d3 {
+    background-color: #F1C150;
+}
+
+.recommendations {
+    background-color: #B6C96D;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+.recommendations p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.p {
+    margin-top: 50px;
+}
+
+.recommendations h1 {
+    font-size: 50px;
+}
+
+.recommendations button {
+    width: 203px;
+    height: 54px;
+    border-radius: 12px;
+    margin-top: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+background-color: #fff;
+
+}
+
+.exchange {
+    background-color: #E26F3F;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    margin-top: 50px;
+    padding-top: 100px;
+
+}
+
+.exchange p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.p {
+    margin-top: 50px;
+}
+
+.exchange h1 {
+    font-size: 50px;
+}
+
+.exchange button {
+    /* width: 203px; */
+    padding: 5px;
+    height: 54px;
+    border-radius: 12px;
+    margin-top: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffff;
+
+}
+
+.challenges {
+    background-color: #D9D4CE;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-top: 50px;
+
+}
+
+.challenges p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.p {
+    margin-top: 50px;
+}
+
+.challenges h1 {
+    font-size: 50px;
+}
+
+.challenges button {
+    /* width: 203px; */
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+
+    height: 54px;
+    border-radius: 12px;
+    margin-top: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ingredients {
+    background-color: #D4CBAE;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-top: 50px;
+
+}
+
+.ingredients p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.p {
+    margin-top: 50px;
+}
+
+.ingredients h1 {
+    font-size: 50px;
+}
+
+.ingredients button {
+    /* width: 203px; */
+    padding: 5px;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 12px;
+    margin-top: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+background-color: #fff;
+
+}
+
+.customer {
+    height: 560px;
+    width: 100%;
+    background-color: #B6C96D;
+    padding-top: 100px;
+    margin-top: 50px;
+
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+}
+
+.customer h1 {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+}
+
+.a {
+    height: 250px;
+    width: 160px;
+    margin-left: 20px;
+}
+
+.content {
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 200px;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+.blog1 .pic1 {
+    position: relative;
+    bottom: 50px;
+}
+
+.blog-1 {
+    position: relative;
+    bottom: 230px;
+    left: 200px;
+    font-size: 14px;
+    width: 155px;
+    height: 72px;
+}
+
+.blog-1 img {
+    width: 70px;
+    height: 14px;
+}
+
+.blog-1 p {
+    margin-top: 20px;
+}
+
+
+.blog2 .pic2 {
+    position: relative;
+    bottom: 50px;
+}
+
+.blog-2 {
+    position: relative;
+    bottom: 230px;
+    left: 200px;
+    font-size: 14px;
+    width: 155px;
+    height: 72px;
+}
+
+.blog-2 img {
+    width: 70px;
+    height: 14px;
+}
+
+.blog-2 p {
+    margin-top: 20px;
+}
+
+
+.blog3 .pic3 {
+    position: relative;
+    bottom: 50px;
+}
+
+.blog-3 {
+    position: relative;
+    bottom: 230px;
+    left: 200px;
+    font-size: 14px;
+    width: 155px;
+    height: 72px;
+}
+
+.blog-3 img {
+    width: 70px;
+    height: 14px;
+}
+
+.blog-3 p {
+    margin-top: 20px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Nova Mono', monospace;
+
+    /* border: 1px solid red; */
+}
+
+.subscribe h1 {
+    color: #E26F3F;
+    width: 971px;
+    height: 89px;
+    font-size: 64px;
+
+}
+
+.subscribe p {
+    color: #E26F3F;
+    width: 701px;
+    height: 99px;
+    font-size: 24px;
+}
+
+.subscribe h1,
+.subscribe p,
+.subscribe input,
+.subscribe button {
+    margin: 10px 0;
+    /* Optional: To add some space between elements */
+}
+
+.subscribe input {
+    padding: 15px;
+    width: 293px;
+    /* Adjust as needed */
+    height: 63px;
+    color: #E26F3F;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    height: 145px;
+    height: 63px;
+    border-radius: 16px;
+    color: #ffff;
+    background-color: #E26F3F;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.social {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    width: 400px;
+
+    font-family: 'Jost', sans-serif;
+font-weight: 500;
+
+}
+
+.social>div {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    margin-left: 120px;
+}
+
+.social>div>img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.social h3 {
+    margin-top: 20px;
+    width: 400px;
+}
